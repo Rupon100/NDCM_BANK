@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Management</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <div class="login-box" id="login-box">
+        <h2>NDCM STUDENT BANK</h2>
+        <h3>Log In</h3>
+        <input type="number" id="ac_num" placeholder="Unique Id" class="number extra"><br>
+        <input type="password" id="Pass" maxlength="15" placeholder="Password" class="pass extra">
+        <input type="submit" id="login-btn" class="extra" value="submit">
+    </div>
+    
+    <div class="main-page" id="main-page">
+        <div class="balance">
+            <h1>Balance: <span id="all-balance">0</span></h1>
+        </div>
+        <div class="with-depo">
+            <div class="deposite depo">
+                <h3>Add Money: <span id="add-balance">0</span></h3>
+                <input type="text" id="deposite-input"  placeholder="Amount">
+                <button class="btn" id="deposite-btn">Add</button>
+            </div>
+
+            <div class="withdrew depo">
+                <h3>Withraw Money: <span id="depo-balance">0</span></h3>
+                <input type="text" id="withdraw-input" placeholder="Amount">
+                <button class="btn" id="depo-btn">Out</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="create login-box" id="create">
+        <div class="text">
+            <div class="text-1">
+                <h4>Sign-up | Sign-in</h4>
+            </div>
+            <div class="text-2">
+                <img src="https://cdn-icons-png.flaticon.com/512/2830/2830284.png" alt="">
+            </div>
+
+        </div>
+        <div class="logo">
+            <div class="logo-1">
+                <h4>Deposite And Withraw With</h4>
+            </div>
+            <div class="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174861.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/349/349221.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174861.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/349/349221.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174861.png" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <script src="bank.js"></script>
+</body>
+</html>
+

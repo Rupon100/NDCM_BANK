@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2, h3, h1, h4 {
+    color: #fff;
+}
+body {
+    background-image: url(https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    background-color: rgba(5, 0, 0, 0.486);
+}
+.login-box h2 {
+
+    font-size: 2rem;
+    font-weight: 600;
+}
+.login-box h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+input[type=number] {
+    -moz-appearance: textfield;   
+}
+.extra {
+    outline: none;
+    padding: 6px 15px;
+    margin: 5px;
+}
+input[type=submit] {
+    background-color: #fff;
+    border:  1px solid rgba(0, 0, 0, 0.13);
+}
+input[type=submit]:hover {
+    transition: 0.2s;
+    background-color: green;
+    cursor: pointer;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+.balance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    background-color: rgba(5, 0, 0, 0.486);
+}
+
+.with-depo {
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    margin-top: 20px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(5, 0, 0, 0.486);
+}
+.depo {
+    margin: 20px;
+    
+}
+.depo input {
+    outline: 1px solid rgb(36, 127, 36);
+    padding: 10px 40px;
+    margin-top: 10px;
+}
+.btn {
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    outline: 2px solid rgb(202, 54, 54);
+    background-color: #fff;
+    cursor: pointer;
+}
+.btn:hover {
+    transition: 0.2s;
+    background-color: green;
+    outline: 2px green;
+}
+
+.create {
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+}
+.text h4 {
+    color: #fff;
+    cursor: pointer;
+}
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.text-2 img {
+    width: 80px;
+}
+
+.logo img {
+    width: 40px;
+
+}
